@@ -1,8 +1,7 @@
 package com.company;
-import java.util.Locale;
 import java.util.Scanner;
 
-public class ch3_15_exercise_3 {
+public class chp3_15_exercise_3 {
     public static void main(String[] args) {
 
         //Question 1
