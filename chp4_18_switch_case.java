@@ -1,7 +1,4 @@
-package com.company;
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Scanner;
+package com.Atif;
 
 public class chp4_18_switch_case {
     public static void main(String[] args) {

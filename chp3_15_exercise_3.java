@@ -1,4 +1,4 @@
-package com.company;
+package com.Atif;
 import java.util.Scanner;
 
 public class chp3_15_exercise_3 {

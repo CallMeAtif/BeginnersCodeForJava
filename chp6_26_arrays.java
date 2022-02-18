@@ -1,4 +1,4 @@
-package com.company;
+package com.Atif;
 
 public class chp6_26_arrays {
     public static void main(String[] args) {

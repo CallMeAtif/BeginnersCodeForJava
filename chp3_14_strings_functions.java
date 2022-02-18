@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.Locale;
+package com.Atif;
 
 public class chp3_14_strings_functions {
     public static void main(String[] args) {

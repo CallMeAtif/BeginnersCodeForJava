@@ -1,4 +1,4 @@
-package com.company;
+package com.Atif;
 
 public class chp4_17_relational_and_logical_operators {
     public static void main(String[] args) {

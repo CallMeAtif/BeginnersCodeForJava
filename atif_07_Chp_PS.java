@@ -1,4 +1,4 @@
-package com.company;
+package com.Atif;
 import java.util.Scanner;
 
 public class atif_07_Chp_PS {
