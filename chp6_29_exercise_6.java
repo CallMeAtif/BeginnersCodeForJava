@@ -56,8 +56,8 @@ public class chp6_29_exercise_6 {
 //
 ////        System.out.println(mat1[1].length);
 //
-//        for (int i = 0; i < mat1.length; i++) {
-//            for (int j = 0; j < mat1[i].length; j++) {
+//        for (int i = 0; i < mat1.length; i++) {//now number of times
+//            for (int j = 0; j < mat1[i].length; j++) {//column number of times
 //                result [i][j] = mat1[i][j] + mat2[i][j];
 //            }
 //        }
@@ -95,7 +95,7 @@ public class chp6_29_exercise_6 {
         //Question 6
 
 //        int []arr={16,2,73,404,563,655};
-        int max = Integer.MIN_VALUE;
+//        int max = Integer.MIN_VALUE;
 //        for(int e : arr){
 //            if(e > max){
 //                max=e;
@@ -119,19 +119,19 @@ public class chp6_29_exercise_6 {
         //Question 8
 
 //        int []arr={16,2,73,404,563,655};
-        int [] arr = {12,45,68,78,99,100};
-        boolean isSorted = true;
-        for (int i = 0; i < arr.length -1; i++) {
-            if(arr[i]>arr[i+1]){
-                isSorted = false;
-                break;
-            }
-        }
-        if(isSorted){
-            System.out.println("This Array is Sorted");
-        }
-        else
-            System.out.println("This Array is NOT Sorted");
+//        int [] arr = {12,45,68,78,99,100};
+//        boolean isSorted = true;
+//        for (int i = 0; i < arr.length -1; i++) {
+//            if(arr[i]>arr[i+1]){
+//                isSorted = false;
+//                break;
+//            }
+//        }
+//        if(isSorted){
+//            System.out.println("This Array is Sorted");
+//        }
+//        else
+//            System.out.println("This Array is NOT Sorted");
 
     }
 }
