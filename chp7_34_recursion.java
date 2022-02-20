@@ -1,5 +1,7 @@
 package com.Atif;
 
+import java.sql.SQLOutput;
+
 public class chp7_34_recursion {
     //factorial(0) = 1
     //factorial(n) = n * n-1 *...1
@@ -23,9 +25,19 @@ public class chp7_34_recursion {
             return product;
         }
     }
+
+    static int fibo(int n){
+        if(n < 2){
+            return n;
+        }
+        else
+            return fibo(n-1) + fibo(n - 2);
+    }
     public static void main(String[] args) {
-        int x = 4;
-        System.out.println("The value of factorial n is: "+ factorial(x));
-        System.out.println("The value of factorial n is: "+ factorial_iterative(x));
+        int x = 7;
+//        System.out.println("The value of factorial n is: "+ factorial(x));
+//        System.out.println("The value of factorial n is: "+ factorial_iterative(x));
+
+        System.out.println(fibo(x));
     }
 }
